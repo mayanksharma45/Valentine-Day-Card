@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(238, 144, 255);
+    background-color: rgb(237, 145, 253);
   }
   .book{
     position: relative;
@@ -15,8 +15,8 @@
     background-size: cover;
     background-position: center;
     background-size: 97%;
-    -webkit-box-shadow: 1px 1px 12px black;
-    box-shadow: 1px 1px 12px black;
+    -webkit-box-shadow: 2px 2px 12px black;
+    box-shadow: 2px 2px 12px black;
     -webkit-transform: preserve-3d;
     -ms-transform: preserve-3d;
     transform: preserve-3d;
@@ -65,14 +65,14 @@
   top:180px;
   left:75px;
   transform: rotate(-45deg);
-  animation: .8s beat infinite;
+  animation: .9s beat infinite;
 }
 .heart:before, .heart:after {
   content:"";
   background-color: #e60303;
   border-radius:50%;
-  height: 60px;
-  width: 60px;
+  height: 61px;
+  width: 61px;
   position: absolute;
 }
 .heart:before {
